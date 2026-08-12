@@ -8,17 +8,14 @@ export default function About() {
       <div className="container-max">
         <SectionHeading
           eyebrow="About"
-          title="Curious builder from Kurigram to Dhaka"
+          title="Curious builder from Dhaka, Bangladesh"
           subtitle="Lifelong passion for technology, emerging trends, and shipping work that matters."
         />
         <Reveal className="mx-auto max-w-3xl">
           <div className="glass relative overflow-hidden rounded-3xl p-8 md:p-10">
             <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-accent/15 blur-3xl" />
             <p className="relative text-base leading-relaxed text-muted-foreground md:text-lg">
-              Originally from Kurigram, Rangpur, now based in Mirpur, Dhaka. I&apos;m driven by a
-              lifelong passion for technology — keeping up with emerging trends and aspiring to
-              contribute at places like Google, Microsoft, and Yahoo. Hardworking, curious, and
-              always learning, I look for opportunities to innovate and make a real impact.
+              Originally from Rangpur and currently based in Mirpur, Dhaka, I am a passionate technology enthusiast with a strong interest in emerging innovations and industry trends. Driven by curiosity and a commitment to continuous learning, I aspire to contribute to leading global technology companies such as Google, Microsoft, and Yahoo. With a hardworking mindset, strong problem-solving abilities, and a dedication to growth, I actively seek opportunities to create innovative solutions and make a meaningful impact in the field of technology.
             </p>
             <div className="relative mt-8 grid gap-4 sm:grid-cols-3">
               {[
